@@ -74,23 +74,23 @@ button {
 
 /* ================HEADER================ */
 
-.header {
+/* .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+} */
 
-.header .container {
+/* .header .container {
   display: flex;
   align-items: center;
-}
+} */
 
-.nav {
+/* .nav {
   display: flex;
   align-items: center;
-}
+} */
 
-.nav-logo {
+/* .nav-logo {
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -101,18 +101,18 @@ button {
   text-transform: uppercase;
 
   color: #4d5ae5;
-}
+} */
 
-.nav-logo .logo {
+/* .nav-logo .logo {
   color: #2e2f42;
-}
+} */
 
-.nav-list {
+/* .nav-list {
   display: flex;
   gap: 40px;
-}
+} */
 
-.nav-link {
+/* .nav-link {
   display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -131,13 +131,13 @@ button {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.current {
+/* .current {
   color: #404bbf;
-}
+} */
 
-.current::after {
+/* .current::after {
   content: '';
 
   width: 48px;
@@ -150,19 +150,19 @@ button {
 
   left: 0;
   bottom: -1px;
-}
+} */
 
-.nav-address {
+/* .nav-address {
   margin-left: auto;
   font-style: normal;
-}
+} */
 
-.address-list {
+/* .address-list {
   display: flex;
   gap: 40px;
-}
+} */
 
-.address-link {
+/* .address-link {
   font-size: 16px;
 
   line-height: 1.5;
@@ -174,14 +174,14 @@ button {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.nav-link:hover,
+/* .nav-link:hover,
 .nav-link:focus,
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
-}
+} */
 
 /* ================HERO================ */
 
