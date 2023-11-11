@@ -67,6 +67,16 @@ button {
   overflow: hidden;
 }
 
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
 /* ===== COMMON MOBILE STYLES ===== */
 
 @media screen and (min-width: 320px) {
@@ -87,6 +97,11 @@ button {
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 }
 
 /* ===== COMMON TABLET STYLES ===== */
@@ -104,6 +119,11 @@ button {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 
@@ -260,7 +280,7 @@ button {
   }
 }
 
-/* ===== HEADER DISPLAY STYLES ===== */
+/* ===== HEADER DESKTOP STYLES ===== */
 @media screen and (min-width: 1158px) {
   .header-nav-logo {
     margin-right: 76px;
@@ -437,5 +457,102 @@ button {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-desktop@2x.jpg);
+  }
+}
+
+/* =====FEATURE STYLES ===== */
+/* =====FEATURE MOBILE STYLES ===== */
+.feature-list {
+  display: flex;
+}
+
+.feature-item-title {
+  margin-bottom: 8px;
+
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.feature-item-text {
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+@media screen and (max-width: 767px) {
+  .feature-list {
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .feature-item-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .feature-icon-bcg {
+    display: none;
+  }
+
+  .feature-item-title {
+    font-size: 36px;
+    font-weight: 700;
+
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+  }
+
+  .feature-item-text {
+    font-weight: 500;
+  }
+}
+
+/* =====FEATURE TABLET STYLES ===== */
+@media screen and (min-width: 768px) {
+  .feature-list {
+    column-gap: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .feature-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+  }
+
+  .feature-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+/* =====FEATURE DESKTOP STYLES ===== */
+
+@media screen and (min-width: 1158px) {
+  .feature-list-item {
+    width: calc((100% - 24px * 3) / 4);
+  }
+
+  .feature-icon-bcg {
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+
+    background-color: #f4f4fd;
+  }
+
+  .feature-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
   }
 }
