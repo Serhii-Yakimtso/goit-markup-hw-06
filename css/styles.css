@@ -1,3 +1,5 @@
+/* ===== COMMON STYLES ===== */
+/* точки перелому: 320px, 768px і 1158px */
 *,
 *::before,
 *::after {
@@ -51,9 +53,8 @@ button {
   font-family: inherit;
   color: currentColor;
 }
-/* ===== COMMON STYLES ===== */
-/* точки перелому: 320px, 768px і 1158px */
 
+/* ===== COMMON STYLES ===== */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -80,7 +81,6 @@ button {
 }
 
 /* ===== COMMON MOBILE STYLES ===== */
-
 @media screen and (min-width: 320px) {
   .container {
     margin-left: auto;
@@ -107,7 +107,6 @@ button {
 }
 
 /* ===== COMMON TABLET STYLES ===== */
-
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -115,7 +114,6 @@ button {
 }
 
 /* ===== COMMON DESKTOP STYLES ===== */
-
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
@@ -129,8 +127,12 @@ button {
   }
 }
 
-/* ===== HEADER MOBILE STYLES ===== */
-
+/* = */
+/* == */
+/* === */
+/* ==== */
+/* ===== HEADER STYLES ===== */
+/* ===== HEADER COMMON STYLES ===== */
 .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
@@ -163,6 +165,7 @@ button {
   color: #404bbf;
 }
 
+/* ===== HEADER MOBILE STYLES ===== */
 @media screen and (max-width: 767px) {
   .header-container {
     padding-top: 16px;
@@ -187,9 +190,7 @@ button {
   }
 }
 
-/* ===== HEADER STYLES ===== */
 /* ===== HEADER TABLET STYLES ===== */
-
 @media screen and (min-width: 768px) {
   .header-nav {
     display: flex;
@@ -300,8 +301,12 @@ button {
   }
 }
 
+/* = */
+/* == */
+/* === */
+/* ==== */
 /* ===== HERO STYLES ===== */
-/* ===== HERO MOBILE STYLES ===== */
+/* ===== HERO COMMON STYLES ===== */
 .hero {
   margin: 0 auto;
 
@@ -355,6 +360,7 @@ button {
   background-color: #404bbf;
 }
 
+/* ===== HERO MOBILE STYLES ===== */
 @media screen and (max-width: 767px) {
   .hero {
     padding: 72px 0;
@@ -391,8 +397,8 @@ button {
       url(../images/hero-mobile@2x.jpg);
   }
 }
-/* ===== HERO TABLET STYLES ===== */
 
+/* ===== HERO TABLET STYLES ===== */
 @media screen and (min-width: 768px) {
   .hero {
     padding: 112px 0;
@@ -430,7 +436,6 @@ button {
 }
 
 /* ===== HERO DESKTOP STYLES ===== */
-
 @media screen and (min-width: 1158px) {
   .hero {
     padding: 188px 0;
@@ -462,8 +467,12 @@ button {
   }
 }
 
+/* = */
+/* == */
+/* === */
+/* ==== */
 /* =====FEATURE STYLES ===== */
-/* =====FEATURE MOBILE STYLES ===== */
+/* =====FEATURE COMMON STYLES ===== */
 .feature-list {
   display: flex;
 }
@@ -482,6 +491,7 @@ button {
   letter-spacing: 0.32px;
 }
 
+/* =====FEATURE MOBILE STYLES ===== */
 @media screen and (max-width: 767px) {
   .feature-list {
     flex-direction: column;
@@ -530,7 +540,6 @@ button {
 }
 
 /* =====FEATURE DESKTOP STYLES ===== */
-
 @media screen and (min-width: 1158px) {
   .feature-list-item {
     width: calc((100% - 24px * 3) / 4);
@@ -559,8 +568,12 @@ button {
   }
 }
 
+/* = */
+/* == */
+/* === */
+/* ==== */
 /* ===== TEAM STYLES ===== */
-/* ===== TEAM MOBILE STYLES ===== */
+/* ===== TEAM COMMON STYLES ===== */
 .team {
   background-color: #f4f4fd;
 }
@@ -643,6 +656,7 @@ button {
   fill: #f4f4fd;
 }
 
+/* ===== TEAM MOBILE STYLES ===== */
 @media screen and (max-width: 767px) {
   .team-list {
     flex-direction: column;
@@ -652,7 +666,6 @@ button {
 }
 
 /* ===== TEAM TABLET STYLES ===== */
-
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .team-list {
     flex-wrap: wrap;
@@ -661,8 +674,8 @@ button {
     justify-content: center;
   }
 }
-/* ===== TEAM DESKTOP STYLES ===== */
 
+/* ===== TEAM DESKTOP STYLES ===== */
 @media screen and (min-width: 1158px) {
   .team-list {
     justify-content: space-between;
@@ -670,9 +683,12 @@ button {
   }
 }
 
+/* = */
+/* == */
+/* === */
+/* ==== */
 /* ===== PORTFOLIO STYLES ===== */
-/* ===== PORTFOLIO MOBILE STYLES ===== */
-
+/* ===== PORTFOLIO COMMON STYLES ===== */
 .portfolio-list {
   display: flex;
 }
@@ -708,6 +724,7 @@ button {
   text-transform: capitalize;
 }
 
+/* ===== PORTFOLIO MOBILE STYLES ===== */
 @media screen and (max-width: 767px) {
   .portfolio-list {
     flex-direction: column;
@@ -805,8 +822,12 @@ button {
   }
 }
 
+/* = */
+/* == */
+/* === */
+/* ==== */
 /* ===== FOOTER STYLE ===== */
-/* ===== FOOTER MOBILE STYLE ===== */
+/* ===== FOOTER COMMON STYLE ===== */
 .footer {
   background-color: #2e2f42;
 }
@@ -950,6 +971,7 @@ button {
   fill: #ffffff;
 }
 
+/* ===== FOOTER MOBILE STYLE ===== */
 @media screen and (max-width: 767px) {
   .footer-container {
     flex-direction: column;
