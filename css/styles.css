@@ -161,6 +161,13 @@ button {
   color: #2e2f42;
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
 .current {
   color: #404bbf;
 }
@@ -255,13 +262,6 @@ button {
     transition-property: color;
     transition-duration: 2500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .header-nav-link:hover,
-  .header-nav-link:focus,
-  .header-address-link:hover,
-  .header-address-link:focus {
-    color: #404bbf;
   }
 
   .header-btn-menu {
@@ -897,7 +897,8 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: #31d0aa;
 }
 
@@ -958,7 +959,8 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form-btn:hover {
+.footer-form-btn:hover,
+.footer-form-btn:focus {
   background-color: #404bbf;
 }
 
@@ -1075,14 +1077,6 @@ button {
   .footer-social {
     margin-right: 80px;
   }
-
-  .footer-social-link:focus {
-    background-color: #31d0aa;
-  }
-
-  .footer-form-btn:focus {
-    background-color: #404bbf;
-  }
 }
 
 /* = */
@@ -1166,7 +1160,8 @@ button {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-close:hover {
+.modal-btn-close:hover,
+.modal-btn-close:focus {
   border: none;
 
   background-color: #404bbf;
@@ -1381,14 +1376,6 @@ button {
 
 /* ===== MODAL DESKTOP STYLES ===== */
 @media screen and (min-width: 1158px) {
-  .modal-btn-close:focus {
-    border: none;
-
-    background-color: #404bbf;
-
-    fill: #ffffff;
-  }
-
   .modal-form-input {
     padding-left: 38px;
   }
